@@ -58,7 +58,7 @@ Parameters:
     Type: String
     # If there are functions with "Image" PackageType in your template,
     # Update the line below with image repository URL and add "--image-repository ${TESTING_IMAGE_REPOSITORY}" to
-    # prod "sam package" and "sam deploy" commands in buildspec2files (in pipeline/).
+    # prod "sam package" and "sam deploy" commands in  (in pipeline/).
     Default: ""
   ProdRegion:
     Type: String
